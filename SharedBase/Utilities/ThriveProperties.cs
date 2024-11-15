@@ -21,7 +21,7 @@ public static class ThriveProperties
 
         var platformName = GetBasePlatformPartOfFolderName(platform);
 
-        return $"Thrive_{thriveVersion}_{platformName}{suffix}";
+        return $"BerlogaEvolution_{thriveVersion}_{platformName}{suffix}";
     }
 
     public static string GetBasePlatformPartOfFolderName(PackagePlatform platform)
@@ -149,7 +149,7 @@ public static class ThriveProperties
                 return "Thrive";
             case PackagePlatform.Windows:
             case PackagePlatform.Windows32:
-                return "Thrive.exe";
+                return "BerlogaEvolution.exe";
             case PackagePlatform.Web:
                 // Technically not an executable, but should be openable with the operating system's open action
                 return "Thrive.html";
