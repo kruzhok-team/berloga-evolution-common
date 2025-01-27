@@ -146,7 +146,7 @@ public static class ThriveProperties
         {
             case PackagePlatform.Mac:
             case PackagePlatform.Linux:
-                return "Thrive";
+                return "BerlogaEvolution";
             case PackagePlatform.Windows:
             case PackagePlatform.Windows32:
                 return "BerlogaEvolution.exe";
